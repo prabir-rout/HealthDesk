@@ -9,7 +9,7 @@ from PyQt6.QtCore import Qt, QTimer
 from PyQt6.QtGui import QFont, QIcon, QPixmap
 
 # Configure Gemini API
-genai.configure(api_key="AIzaSyDkXR3W6SobrZd5rdT2ZwEFBT5hjmo8RYE")
+genai.configure(api_key="#") 
 
 def get_gemini_response(prompt):
     try:
